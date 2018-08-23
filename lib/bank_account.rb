@@ -14,11 +14,11 @@ class BankAccount
   end
 
   def display_balance
-    @balance
+    Your balance is ${@balance}.
   end
 
   def valid?
-    @status == open && balance > 0
+    @status == "open" && balance > 0
   end
 
 end
